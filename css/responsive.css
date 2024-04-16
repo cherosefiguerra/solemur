@@ -1,0 +1,133 @@
+/*
+
+@media only screen and (max-width : 767px) {
+
+}
+*/
+
+@media only screen and (max-width : 991px){
+	.navbar-brand .logo {
+	    width: 110px;
+	    height: auto;
+	}
+	
+	.topper .companyname {
+	    font-size: 22px;
+	}
+	
+	.topper .text {
+	    padding-left: 10px;
+	    line-height: 1.5;
+	}
+	
+	.navbar-brand span {
+	    font-size: 12px;
+	    color: #005a84;
+	    font-family: 'poppinsmedium';
+	}
+	
+	.navbar-nav{
+		margin: 0px auto;
+	}
+
+	.wrapper-intro .content h1 {
+	    font-size: 50px;
+	}
+
+	.wrapper-slide span {
+	    font-size: 30px;
+	}
+
+	.nav-top .navbar{
+		display: none;
+	}
+	
+
+	.token {
+	    height: auto;
+	}
+
+
+	body{color:#2E384D; font-family: "ScholarlyAmbitionRegular-PKdwB";letter-spacing: 2px;}
+	p{color:#2E384D;font-size: 21px;margin-bottom:10px;}
+/* 	 */
+
+	.branch{
+	    display: none;
+	}
+
+	.one img{
+	    margin-top: 150px;
+	}
+
+	.two img{
+	    margin-top: 150px;
+
+	}
+
+	.three img{
+	    margin-top: 150px;
+	}
+
+	.four img{
+	    margin-top: 150px;
+	    
+	}
+
+	.five img{
+	    margin-top: 150px;
+	    
+	}
+
+
+
+}
+
+@media only screen and (max-width : 767px) {
+	
+	.wrapper-intro {
+	    height: auto;
+	    width: auto;
+	    background-color: #fff;
+	}
+
+	.wrapper-intro .content {
+	    position: revert;
+	    bottom: 100px;
+	    margin: auto;
+	    left: 0px;
+	    right: 0px;
+	}
+
+	.wrapper-slide {
+	    height: auto;
+	    width: auto;
+	    background-color: #185617;
+	}
+
+	.partners {
+	    width: 100%;
+	}
+
+	
+}
+
+
+@media (max-height: 1100px ){
+    .wrapper-intro .content h1 {
+	    margin-top:0px;
+	}
+
+	.wrapper-intro .content {
+	    bottom: 70px;
+	}
+
+	.navbar {
+		padding: 0px;
+	}
+
+
+}
+
+
+

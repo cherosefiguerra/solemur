@@ -1,0 +1,15 @@
+
+
+@font-face {
+  font-family: 'ScholarlyAmbitionRegular-PKdwB';
+  src:url('../fonts/sholarly/ScholarlyAmbitionRegular-PKdwB.woff') format('woff'),
+        url('../fonts/sholarly/ScholarlyAmbitionRegular-PKdwB.woff2') format('woff2'),
+        url('../fonts/sholarly/ScholarlyAmbitionRegular-PKdwB.svg#ScholarlyAmbitionRegular-PKdwB') format('svg'),
+        url('../fonts/sholarly/ScholarlyAmbitionRegular-PKdwB.eot'),
+        url('../fonts/sholarly/ScholarlyAmbitionRegular-PKdwB.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sholarly/ScholarlyAmbitionRegular-PKdwB.ttf') format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,529 @@
+/*others*/
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+html {scroll-behavior: smooth;}
+      
+body{color:#2E384D; font-family: "ScholarlyAmbitionRegular-PKdwB";letter-spacing: 3px;}
+p{color:#2E384D;font-size: 28px;margin-bottom:10px;}
+
+img{
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+
+.poppinsbold{font-family: 'poppinsbold';}
+.poppinsreg{font-family: 'poppinsregular';}
+.poppinsmed{font-family: 'poppinsmedium';}
+
+.fullHeight{
+	height: 100%;
+}
+
+/* Colors */
+.bg-white {
+    background: #fff!important;
+}
+
+
+/* Button Color */
+
+.btn {
+    
+    padding: 15PX 30PX;
+    font-size: 28PX;
+    letter-spacing: 5px;
+    border-radius: 50PX;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #955e28;
+    border-color: #955e28;
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #FF9800;
+    border: 3px solid #955e28;
+}
+
+
+
+/* nav-top */
+
+.topper .text {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.topper .icon{
+  color: #f47321;
+}
+
+.topper .companyname{
+  color: #f47321;
+  text-shadow: none;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: Montserrat, sans-serif;
+  background-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+  border-width: 0px;
+  border-color: #000;
+  border-style: none;
+  text-shadow: -1px 0 1px #000;
+}
+
+.navbar-nav { 
+    margin-left: auto; 
+} 
+
+.nav-top ul{
+	width: fit-content;
+}
+
+.navbar-brand .logo{
+  width: 100px;
+  height: auto;
+}
+
+.navbar-brand span{
+  font-size: 15px;
+  color: #005a84;
+  font-family: "ScholarlyAmbitionRegular-PKdwB";
+  letter-spacing: 8px;
+}
+
+.nav-top .navbar-dark .navbar-nav .nav-link {
+    color: #47a046;
+    padding: .5em 1rem;
+    font-family: "ScholarlyAmbitionRegular-PKdwB";
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.nav-top .navbar-nav > .nav-item.active > a {
+    color: #cf8a3f;
+    padding: .5em 2.5rem;
+}
+
+.nav-top .nav-item{
+	margin: 0px 10px;
+	
+}
+
+.nav-top .nav-item.active {
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+.nav-top .navbar-collapse {
+    align-items: center;
+    width: 100%;
+}
+
+.nav-top .navbar-nav {
+    margin: 0px auto;
+}
+
+.nav-top .navbar{
+	border-radius: 50px;
+}
+
+
+/* Lpage */
+
+.wrapper-intro{
+    height: 90vh;
+    width: auto;
+    background-color: #fff;
+    
+}
+
+
+.imgsollemu{
+    width: 100%;
+    height: auto;
+}
+
+.wrapper-intro .ftco-footer-social li {
+    list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block;
+}
+
+.wrapper-intro .ftco-footer-social li a i {
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.wrapper-intro .ftco-footer-social li a {
+    height: 40px;
+    width: 40px;
+    display: block;
+    float: left;
+    background: rgb(224 167 64);
+    border-radius: 50%;
+    position: relative;
+    color: #FFF;
+
+}
+
+
+.wrapper-intro .content{
+    position: absolute;bottom: 100px;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+
+}
+
+.wrapper-intro .content h1{
+    font-weight: 900;
+    font-family: "ScholarlyAmbitionRegular-PKdwB";
+    letter-spacing: 8px;
+    color: #fff;
+    font-size: 80px;
+    text-shadow: 5px 5px #112519;
+    margin-top:-200px;
+}
+
+.wrapper-intro .content p{
+    color: #fff;
+    font-size: 28px;
+}
+
+
+/* Spage */
+
+.wrapper-slide{
+    height: 10vh;
+    width: auto;
+    background-color: #185617;
+    
+}
+
+.wrapper-slide h2{
+    font-weight: 900;
+    font-family: "ScholarlyAmbitionRegular-PKdwB";
+    letter-spacing: 8px;
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 0px;
+    
+}
+
+.scroll {
+    /* position: relative; */
+    width: 100%;
+    /* height: 15%; */
+    /* min-height: 150px; */
+    background-color: #185617;
+    overflow: hidden;
+    z-index: 1;
+    margin: 0;
+    padding: 15px;
+}
+
+.m-scroll {
+  overflow_ hidden;
+  height: 100%;
+  white-space: nowrap;
+  animation: scrollText 10s infinite linear;
+  margin: 0;
+  font-size: 0;
+  display: inline-block;
+}
+
+.wrapper-slide span {
+  font-weight: 900;
+    font-family: "ScholarlyAmbitionRegular-PKdwB";
+    letter-spacing: 8px;
+    color: #fff;
+    font-size: 50px;
+
+
+  display: inline-block;
+  min-width: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes scrollText {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+
+/* Apage */
+
+.wrapper-about{
+    height: auto;
+    width: auto;
+    background-color: #f6fce0;
+    
+}
+
+.wrapper-about h2{
+    font-weight: 900;
+    font-family: "ScholarlyAmbitionRegular-PKdwB";
+    letter-spacing: 8px;
+    color: #185617;
+    font-size: 50px;
+    margin-bottom: 0px;
+    
+}
+
+.wrapper-wrap-content{
+    height: auto;
+    width: 100%;
+}
+
+/* Rpage */
+
+.wrapper-roapmap{
+    height: auto;
+    width: auto;
+    background-color: #f6fce0;
+    
+}
+
+.wrapper-roapmap h2{
+    font-weight: 900;
+    font-family: "ScholarlyAmbitionRegular-PKdwB";
+    letter-spacing: 8px;
+    color: #185617;
+    font-size: 50px;
+    margin-bottom: 0px;
+    
+}
+
+
+.wrapper-roapmap ul li{
+    list-style: none;
+}
+
+
+.media-body h2{
+    font-weight: 900;
+    font-family: "ScholarlyAmbitionRegular-PKdwB";
+    letter-spacing: 8px;
+    color: #ff9800;
+    font-size: 30px;
+    margin-bottom: 0px;
+    
+}
+
+.media-body h2{
+    font-weight: 900;
+    font-family: "ScholarlyAmbitionRegular-PKdwB";
+    letter-spacing: 8px;
+    color: #ff9800;
+    font-size: 30px;
+    margin-bottom: 0px;
+    
+}
+
+.pend{
+    text-align: right;
+}
+
+
+.one img{
+    width: 180px;
+    height: auto;
+    margin-top: 20px;
+    border: white;
+}
+
+.two img{
+    width: 180px;
+    height: auto;
+    margin-top: 20px;
+
+}
+
+.three img{
+    width: 180px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.four img{
+    width: 180px;
+    height: auto;
+    margin-top: 20px;
+    
+}
+
+.five img{
+    width: 180px;
+    height: auto;
+    margin-top: 20px;
+    
+}
+
+.branch{
+    display: block;
+}
+
+
+
+
+
+
+/* Ppage */
+
+.wrapper-partners{
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    
+}
+
+.wrapper-partners h2{
+    font-weight: 900;
+    font-family: "ScholarlyAmbitionRegular-PKdwB";
+    letter-spacing: 8px;
+    color: #185617;
+    font-size: 50px;
+    margin-bottom: 0px;
+    
+}
+
+.partners{
+    background-color: #fff;
+    border: 4px solid #a67437;
+    height: 150px;
+    border-radius: 20px;
+    width: 250px;
+}
+
+.partners img{
+    width: 100px;
+}
+
+/* tpage */
+
+.wrapper-tokenomics{
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    
+}
+
+.wrapper-tokenomics h2{
+    font-weight: 900;
+    font-family: "ScholarlyAmbitionRegular-PKdwB";
+    letter-spacing: 8px;
+    color: #185617;
+    font-size: 50px;
+    margin-bottom: 0px;
+    
+}
+
+
+.token{
+    background-color: #ffffff47;
+    border: 4px solid #ffffff;
+    height: auto;
+    min-height: 150px;
+    border-radius: 20px;
+}
+
+.token h3{
+    font-weight: 900;
+    font-family: "ScholarlyAmbitionRegular-PKdwB";
+    letter-spacing: 8px;
+    color: #2E384D;
+    font-size: 30px;
+}
+
+
+
+
+
+/* Footer */
+.footer-sec {
+    background: transparent;
+}
+
+.sollemuimg{
+    width: 200px;
+    height: auto;
+}
+
+.footer-sec h3{
+	font-weight: 900;
+    font-family: "ScholarlyAmbitionRegular-PKdwB";
+    letter-spacing: 8px;
+    color: #e0a740;
+    font-size: 40px;
+    text-shadow: 2px 2px #112519;
+}
+
+.footer-sec p{
+    color: #fff;
+    text-shadow: 2px 2px #112519;
+
+}
+
+
+.footer-sec .ftco-footer-widget ul li a i {
+    color: #fff;
+}
+
+.ftco-footer-social li {
+    list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block;
+}
+
+.ftco-footer-social li a i {
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.ftco-footer-social li a {
+    height: 40px;
+    width: 40px;
+    display: block;
+    float: left;
+    background: rgb(224 167 64);
+    border-radius: 50%;
+    position: relative;
+}
+
+.footer-sec iframe{
+	width: 100%;
+	height: 300px;
+	
+}
+
+
