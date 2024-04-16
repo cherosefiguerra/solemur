@@ -130,4 +130,22 @@
 }
 
 
+@media (max-height: 70px ){
+    .wrapper-intro .content h1 {
+	    margin-top:0px;
+	}
+
+	.wrapper-intro .content {
+	    bottom: 40px;
+	}
+
+	.navbar {
+		padding: 0px;
+	}
+
+
+}
+
+
+
 
