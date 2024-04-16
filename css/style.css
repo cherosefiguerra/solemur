@@ -206,7 +206,7 @@ img{
 
 .wrapper-intro .content p{
     color: #fff;
-    font-size: 38px;
+    font-size: 48px;
     text-transform: uppercase;
 }
 
@@ -252,7 +252,7 @@ img{
   display: inline-block;
 }
 
-.wrapper-slide span {
+.wrapper-slide p {
   font-weight: 900;
     font-family: "ScholarlyAmbitionRegular-PKdwB";
     letter-spacing: 8px;
