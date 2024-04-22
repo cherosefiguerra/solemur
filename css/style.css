@@ -85,16 +85,12 @@ img{
   height: auto;
 }
 
-.navbar-brand span{
-  font-size: 15px;
-  color: #005a84;
-  font-family: 'poppinsbold';
-}
+
 
 .nav-top .navbar-dark .navbar-nav .nav-link {
     color: #47a046;
     padding: .5em 1rem;
-    font-family: 'poppinsbold';
+    font-family: 'poppinsmedium';
     text-transform: uppercase;
     font-size: 18px;
 }
