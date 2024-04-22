@@ -151,6 +151,10 @@
 	    height: auto;
 	}
 
+	.wrapper-slide p {
+		font-size: 30px;
+	}
+
 
 }
 
