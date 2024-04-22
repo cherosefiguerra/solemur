@@ -11,14 +11,6 @@
 	    height: auto;
 	}
 	
-	.topper .companyname {
-	    font-size: 22px;
-	}
-	
-	.topper .text {
-	    padding-left: 10px;
-	    line-height: 1.5;
-	}
 	
 	.navbar-brand span {
 	    font-size: 12px;
@@ -30,8 +22,26 @@
 		margin: 0px auto;
 	}
 
+	.wrapper-intro {
+		height: auto;
+	}
+
+	.wrapper-intro .content {
+		position: revert;
+		bottom: 120px;
+		margin: auto;
+		left: 0px;
+		right: 0px;
+	}
+
 	.wrapper-intro .content h1 {
 	    font-size: 50px;
+		margin-top: 50px;
+	}
+
+	.imgsolemur {
+		width: 50%;
+		height: auto;
 	}
 
 	.wrapper-slide span {
@@ -47,38 +57,17 @@
 	    height: auto;
 	}
 
-
-	body{color:#2E384D; font-family: "ScholarlyAmbitionRegular-PKdwB";letter-spacing: 2px;}
-	p{color:#2E384D;font-size: 21px;margin-bottom:10px;}
-/* 	 */
-
-	.branch{
-	    display: none;
+	.imgaboutsol{
+		width: 50%;;
 	}
 
-	.one img{
-	    margin-top: 150px;
+	.wrapper-about h2, .wrapper-roapmap h2, .wrapper-tokenomics h2{
+		font-size: 30px;
 	}
 
-	.two img{
-	    margin-top: 150px;
-
+	.token h3 {
+		font-size:20px;
 	}
-
-	.three img{
-	    margin-top: 150px;
-	}
-
-	.four img{
-	    margin-top: 150px;
-	    
-	}
-
-	.five img{
-	    margin-top: 150px;
-	    
-	}
-
 
 
 }
@@ -124,6 +113,11 @@
 
 	.navbar {
 		padding: 0px;
+	}
+
+	.imgsolemur {
+		width: 50%;
+		height: auto;
 	}
 
 

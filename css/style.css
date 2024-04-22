@@ -6,8 +6,8 @@ html, body {
 
 html {scroll-behavior: smooth;}
       
-body{color:#2E384D; font-family: "ScholarlyAmbitionRegular-PKdwB";letter-spacing: 3px;}
-p{color:#2E384D;font-size: 28px;margin-bottom:10px;}
+body{color:#2E384D; font-family: 'poppinsmedium';}
+p{color:#2E384D;font-size: 14px;margin-bottom:10px;}
 
 img{
 	user-drag: none; 
@@ -32,13 +32,17 @@ img{
     background: #fff!important;
 }
 
+.bg-black {
+    background: #000000!important;
+}
+
 
 /* Button Color */
 
 .btn {
     
     padding: 15PX 30PX;
-    font-size: 28PX;
+    font-size: 18PX;
     letter-spacing: 5px;
     border-radius: 50PX;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
@@ -46,42 +50,28 @@ img{
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #955e28;
-    border-color: #955e28;
+    background-color: #007ba9;
+    border-color: #007ba9;
 }
 
 
 .btn-primary {
     color: #fff;
-    background-color: #FF9800;
-    border: 3px solid #955e28;
+    background-color: #00aef0;
+    border: 3px solid #0ebdff;
+}
+
+
+.btn-secondary {
+    color: #fff;
+    background-color: #005200;
+    border-color: #006e01;
 }
 
 
 
 /* nav-top */
 
-.topper .text {
-    color: rgba(0, 0, 0, 0.7);
-}
-
-.topper .icon{
-  color: #f47321;
-}
-
-.topper .companyname{
-  color: #f47321;
-  text-shadow: none;
-  font-size: 25px;
-  font-weight: 600;
-  font-family: Montserrat, sans-serif;
-  background-color: rgba(0, 0, 0, 0);
-  text-decoration: none;
-  border-width: 0px;
-  border-color: #000;
-  border-style: none;
-  text-shadow: -1px 0 1px #000;
-}
 
 .navbar-nav { 
     margin-left: auto; 
@@ -99,21 +89,24 @@ img{
 .navbar-brand span{
   font-size: 15px;
   color: #005a84;
-  font-family: "ScholarlyAmbitionRegular-PKdwB";
-  letter-spacing: 8px;
+  font-family: 'poppinsbold';
 }
 
 .nav-top .navbar-dark .navbar-nav .nav-link {
     color: #47a046;
     padding: .5em 1rem;
-    font-family: "ScholarlyAmbitionRegular-PKdwB";
-    letter-spacing: 5px;
+    font-family: 'poppinsbold';
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 18px;
 }
 
+/*.nav-top .navbar-dark .navbar-nav .nav-link:hover {
+
+    font-size: 28px;
+}*/
+
 .nav-top .navbar-nav > .nav-item.active > a {
-    color: #cf8a3f;
+    color: rgb(0 174 240);
     padding: .5em 2.5rem;
 }
 
@@ -123,7 +116,7 @@ img{
 }
 
 .nav-top .nav-item.active {
-    background-color: #fff;
+    background-color: transparent;
     border-radius: 50px;
 }
 
@@ -151,7 +144,7 @@ img{
 }
 
 
-.imgsollemu{
+.imgsolemur{
     width: 100%;
     height: auto;
 }
@@ -178,7 +171,7 @@ img{
     width: 40px;
     display: block;
     float: left;
-    background: rgb(224 167 64);
+    background: rgb(0 174 240);
     border-radius: 50%;
     position: relative;
     color: #FFF;
@@ -187,7 +180,7 @@ img{
 
 
 .wrapper-intro .content{
-    position: absolute;bottom: 100px;
+    position: absolute;bottom: 120px;
     margin: auto;
     left: 0px;
     right: 0px;
@@ -196,17 +189,18 @@ img{
 
 .wrapper-intro .content h1{
     font-weight: 900;
-    font-family: "ScholarlyAmbitionRegular-PKdwB";
-    letter-spacing: 8px;
+    font-family: 'poppinsbold';
     color: #fff;
     font-size: 80px;
     text-shadow: 5px 5px #112519;
-    margin-top:-200px;
+    margin-top:-50px;
+    line-height: 1;
+    margin-bottom: 30px;
 }
 
 .wrapper-intro .content p{
     color: #fff;
-    font-size: 28px;
+    font-size: 18px;
 }
 
 
@@ -221,8 +215,7 @@ img{
 
 .wrapper-slide h2{
     font-weight: 900;
-    font-family: "ScholarlyAmbitionRegular-PKdwB";
-    letter-spacing: 8px;
+    font-family: 'poppinsbold';
     color: #fff;
     font-size: 50px;
     margin-bottom: 0px;
@@ -230,15 +223,16 @@ img{
 }
 
 .scroll {
-    /* position: relative; */
-    width: 100%;
-    /* height: 15%; */
-    /* min-height: 150px; */
-    background-color: #185617;
-    overflow: hidden;
-    z-index: 1;
-    margin: 0;
-    padding: 15px;
+     position: relative;
+     width: 100%;
+     height: 10vh;
+     /* min-height: 150px; */
+     overflow: hidden;
+     z-index: 1;
+     margin: 0;
+     padding: 15px;
+     background: rgb(0,174,240);
+     background: radial-gradient(circle, rgba(0,174,240,1) 0%, rgba(0,45,0,1) 83%);
 }
 
 .m-scroll {
@@ -246,15 +240,14 @@ img{
   height: 100%;
   white-space: nowrap;
   animation: scrollText 10s infinite linear;
-  margin: 0;
+  margin-top: 15px;
   font-size: 0;
   display: inline-block;
 }
 
 .wrapper-slide span {
   font-weight: 900;
-    font-family: "ScholarlyAmbitionRegular-PKdwB";
-    letter-spacing: 8px;
+  font-family: 'poppinsbold';
     color: #fff;
     font-size: 50px;
 
@@ -263,6 +256,11 @@ img{
   min-width: 100vh;
   margin: 0;
   padding: 0;
+}
+
+.slogo{
+    width: 50px;
+    height: auto;
 }
 
 @keyframes scrollText {
@@ -280,17 +278,26 @@ img{
 .wrapper-about{
     height: auto;
     width: auto;
-    background-color: #f6fce0;
+    background-color: #010800;
     
+}
+
+.imgaboutsol{
+    width: 100%;
+    height: auto;
 }
 
 .wrapper-about h2{
     font-weight: 900;
-    font-family: "ScholarlyAmbitionRegular-PKdwB";
-    letter-spacing: 8px;
-    color: #185617;
+    font-family: 'poppinsbold';
+    color: #00aef0;
     font-size: 50px;
     margin-bottom: 0px;
+    
+}
+
+.wrapper-about p{
+    color: #c7c7c7;
     
 }
 
@@ -304,15 +311,14 @@ img{
 .wrapper-roapmap{
     height: auto;
     width: auto;
-    background-color: #f6fce0;
+    background-color: transparent;
     
 }
 
 .wrapper-roapmap h2{
     font-weight: 900;
-    font-family: "ScholarlyAmbitionRegular-PKdwB";
-    letter-spacing: 8px;
-    color: #185617;
+    font-family: 'poppinsbold';
+    color:#fff;
     font-size: 50px;
     margin-bottom: 0px;
     
@@ -324,10 +330,28 @@ img{
 }
 
 
+.rmap{
+    background-color: #010800;
+    border-radius: 20px;
+    min-height: 300px;
+    border: 4px solid #041e03;
+}
+
+.rmap h3{
+    margin-bottom: 20px;
+    color: #00aef0;
+    margin-top: 0px;
+    
+}
+
+.rmap p{
+    color: #c7c7c7;
+}
+
+
 .media-body h2{
     font-weight: 900;
-    font-family: "ScholarlyAmbitionRegular-PKdwB";
-    letter-spacing: 8px;
+    font-family: 'poppinsbold';
     color: #ff9800;
     font-size: 30px;
     margin-bottom: 0px;
@@ -336,8 +360,7 @@ img{
 
 .media-body h2{
     font-weight: 900;
-    font-family: "ScholarlyAmbitionRegular-PKdwB";
-    letter-spacing: 8px;
+    font-family: 'poppinsbold';
     color: #ff9800;
     font-size: 30px;
     margin-bottom: 0px;
@@ -403,8 +426,7 @@ img{
 
 .wrapper-partners h2{
     font-weight: 900;
-    font-family: "ScholarlyAmbitionRegular-PKdwB";
-    letter-spacing: 8px;
+    font-family: 'poppinsbold';
     color: #185617;
     font-size: 50px;
     margin-bottom: 0px;
@@ -434,9 +456,8 @@ img{
 
 .wrapper-tokenomics h2{
     font-weight: 900;
-    font-family: "ScholarlyAmbitionRegular-PKdwB";
-    letter-spacing: 8px;
-    color: #185617;
+    font-family: 'poppinsbold';
+    color: #fff;
     font-size: 50px;
     margin-bottom: 0px;
     
@@ -445,7 +466,7 @@ img{
 
 .token{
     background-color: #ffffff47;
-    border: 4px solid #ffffff;
+    /*border: 4px solid #ffffff;*/
     height: auto;
     min-height: 150px;
     border-radius: 20px;
@@ -453,10 +474,13 @@ img{
 
 .token h3{
     font-weight: 900;
-    font-family: "ScholarlyAmbitionRegular-PKdwB";
-    letter-spacing: 8px;
-    color: #2E384D;
+    font-family: 'poppinsbold';
+    color: rgb(1 8 0);
     font-size: 30px;
+}
+
+.token p{
+    color: rgb(1 8 0);
 }
 
 
@@ -475,16 +499,21 @@ img{
 
 .footer-sec h3{
 	font-weight: 900;
-    font-family: "ScholarlyAmbitionRegular-PKdwB";
-    letter-spacing: 8px;
-    color: #e0a740;
-    font-size: 40px;
+    font-family: 'poppinsbold';
+    color: #fff;
+    /*text-shadow: 2px 2px #112519;*/
+}
+
+.footer-sec h2{
+	font-weight: 900;
+    font-family: 'poppinsbold';
+    color: #00aef0;
     text-shadow: 2px 2px #112519;
 }
 
 .footer-sec p{
     color: #fff;
-    text-shadow: 2px 2px #112519;
+    /*text-shadow: 2px 2px #112519;*/
 
 }
 
@@ -515,7 +544,7 @@ img{
     width: 40px;
     display: block;
     float: left;
-    background: rgb(224 167 64);
+    background: rgb(0 174 240);
     border-radius: 50%;
     position: relative;
 }
