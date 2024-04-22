@@ -116,8 +116,12 @@
 	}
 
 	.imgsolemur {
-		width: 50%;
+		width: 70%;
 		height: auto;
+	}
+
+	.m-scroll{
+		margin-top: 0px;
 	}
 
 
