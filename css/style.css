@@ -7,7 +7,7 @@ html, body {
 html {scroll-behavior: smooth;}
       
 body{color:#2E384D; font-family: 'poppinsregular';}
-p{color:#2E384D;font-size: 14px;margin-bottom:10px;letter-spacing: 2px;}
+p{color:#2E384D;font-size: 14px;margin-bottom:10px;letter-spacing: 2px;    line-height: 2;}
 
 img{
 	user-drag: none; 
