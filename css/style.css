@@ -43,7 +43,6 @@ img{
     
     padding: 15PX 30PX;
     font-size: 18PX;
-    letter-spacing: 5px;
     border-radius: 50PX;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
